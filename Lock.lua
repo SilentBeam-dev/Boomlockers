@@ -11,7 +11,7 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 local camera = workspace.CurrentCamera
-local hopping = false
+local hopping = true 
 local hopPower = 50
 local wallCheckRange = 3
 
